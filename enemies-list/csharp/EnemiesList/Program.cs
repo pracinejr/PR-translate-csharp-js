@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Collections.Generic;
 
 Console.WriteLine("My Enemies List!");
@@ -78,3 +79,4 @@ public class Enemy
     public bool IsReallyHated { get; set; }
     public List<string> Offenses { get; set; }
 }
+

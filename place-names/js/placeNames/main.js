@@ -17,4 +17,5 @@ const theNames = names.filter(name => name.startsWith("The"));
 
 for (const name of theNames) {
   console.log(name)
+
 }
